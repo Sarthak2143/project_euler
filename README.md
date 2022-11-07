@@ -9,5 +9,6 @@ Project Euler.
 - [Even Fibonacci Numbers](src/02.py)
 - [Largest prime factor](src/03.py)
 - [Sum square difference](src/04.py)
+- [Smallest multiple](src/05.py)
 
 ---
