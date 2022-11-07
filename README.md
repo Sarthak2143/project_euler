@@ -1,7 +1,7 @@
 # Project Euler
 
 This repo contains my solutions to problems featured in
-Project Euler.
+Project Euler. All problems have been solved in `python3`.
 
 **Solutions**:
 
