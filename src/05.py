@@ -1,15 +1,15 @@
 # Problem 5: Smallest Multiple
 
 def get_gcd(a, b):
-    GCDs = []
+    divisors = []
     smaller = min(a, b)
     if a == b: return a
     if b % a == 0 or a % b == 0: return min(a, b)
     for i in range(2, smaller):
         if a % i == 0 and b % i == 0:
-            GCDs.append(i)
-    if len(GCDs) == 0: return 1
-    return max(GCDs)
+            divisors.append(i)
+    if len(divisors) == 0: return 1
+    return max(divisors)
 
 def get_lcm(a, b):
     return int(a * b / get_gcd(a, b))
@@ -32,7 +32,6 @@ def main():
     data = []
     for i in range(1, 21):
         data.append(i)
-    print(data)
     print(lcm(data))
 
 if __name__ == "__main__":
