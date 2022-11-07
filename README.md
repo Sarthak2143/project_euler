@@ -11,5 +11,6 @@ Project Euler. All problems have been solved in `python3`.
 - [Sum square difference](src/04.py)
 - [Smallest multiple](src/05.py)
 - [Largest palindrome product](src/06.py)
+- [10 001st prime](src/07.py)
 
 ---
