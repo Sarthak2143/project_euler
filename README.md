@@ -10,5 +10,6 @@ Project Euler.
 - [Largest prime factor](src/03.py)
 - [Sum square difference](src/04.py)
 - [Smallest multiple](src/05.py)
+- [Largest palindrome product](src/06.py)
 
 ---
